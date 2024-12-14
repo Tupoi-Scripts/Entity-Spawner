@@ -1,7 +1,7 @@
 local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V2/Source.lua"))()
 local entity = spawner.Create({
 	Entity = {
-		Name = "deerGodMovin",
+		Name = "deerGodMoving",
 		Asset = "https://github.com/Tupoi-Scripts/Entity-Spawner/blob/main/deergodOld.rbxm?raw=true",
 		HeightOffset = 1
 	},
@@ -22,7 +22,7 @@ local entity = spawner.Create({
 		Values = {7, 17, 0.3, 3}
 	},
 	Movement = {
-		Speed = 45,
+		Speed = 21,
 		Delay = 0.3,
 		Reversed = false
 	},
@@ -46,7 +46,7 @@ local entity = spawner.Create({
 	},
 	Death = {
 		Type = "Guiding",
-		Hints = {"Sorry", ":Troll:", "lol", "try again"},
+		Hints = {"... i have nothing to say about this Entity.."},
 		Cause = "Deer God"
 	}
 })
