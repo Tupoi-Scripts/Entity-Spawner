@@ -1,5 +1,4 @@
 local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V2/Source.lua"))()
-local speed = math.random(350,1050)
 local entity = spawner.Create({
 	Entity = {
 		Name = "rebooundMoving",
@@ -23,7 +22,7 @@ local entity = spawner.Create({
 		Values = {5, 15, 0.1, 1}
 	},
 	Movement = {
-		Speed = speed,
+		Speed = 160,
 		Delay = 4,
 		Reversed = true
 	},
