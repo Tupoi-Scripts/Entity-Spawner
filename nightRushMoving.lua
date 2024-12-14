@@ -2,7 +2,7 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = spawner.Create({
 	Entity = {
 		Name = "RushMoving",
-		Asset = "https://api.hugebonus.xyz/assets/TrollFace.rbxm",
+		Asset = "https://github.com/Tupoi-Scripts/Entity-Spawner/blob/main/RushMoving.rbxm?raw=true",
 		HeightOffset = 1
 	},
 	Lights = {
