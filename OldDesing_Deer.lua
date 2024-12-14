@@ -2,7 +2,7 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = spawner.Create({
 	Entity = {
 		Name = "deerGodMoving",
-		Asset = "https://github.com/Tupoi-Scripts/Entity-Spawner/blob/main/UpdatedFileDEERGOD.rbxm?raw=true",
+		Asset = "https://github.com/Tupoi-Scripts/Entity-Spawner/blob/main/OldDesing_Deer.rbxm?raw=true,
 		HeightOffset = 1
 	},
 	Lights = {
@@ -18,11 +18,11 @@ local entity = spawner.Create({
 	},
 	CameraShake = {
 		Enabled = true,
-		Range = 100,
-		Values = {7, 17, 0.3, 3}
+		Range = 225,
+		Values = {7, 17, 0.2, 2}
 	},
 	Movement = {
-		Speed = 21,
+		Speed = 24,
 		Delay = 0.3,
 		Reversed = false
 	},
@@ -46,7 +46,7 @@ local entity = spawner.Create({
 	},
 	Death = {
 		Type = "Guiding",
-		Hints = {"... i have nothing to say about this Entity.."},
+		Hints = {"i have nothing to say about this Entity.."},
 		Cause = "Deer God"
 	}
 })
