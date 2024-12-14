@@ -3,7 +3,7 @@ local speed = math.random(350,1050)
 local entity = spawner.Create({
 	Entity = {
 		Name = "rebooundMoving",
-		Asset = "https://github.com/Tupoi-Scripts/Entity-Spawner/blob/main/RushMoving.rbxm?raw=true",
+		Asset = "https://github.com/Tupoi-Scripts/Entity-Spawner/blob/main/reboundMovin.rbxm?raw=true",
 		HeightOffset = 1
 	},
 	Lights = {
