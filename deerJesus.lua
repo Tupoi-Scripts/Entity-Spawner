@@ -2,7 +2,7 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = spawner.Create({
 	Entity = {
 		Name = "deerGodMoving",
-		Asset = "https://github.com/Tupoi-Scripts/Entity-Spawner/blob/main/deergodOld.rbxm?raw=true",
+		Asset = "https://github.com/Tupoi-Scripts/Entity-Spawner/blob/main/UpdatedFileDEERGOD.rbxm?raw=true",
 		HeightOffset = 1
 	},
 	Lights = {
