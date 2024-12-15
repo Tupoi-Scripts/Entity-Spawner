@@ -19,7 +19,7 @@ local entity = spawner.Create({
 	CameraShake = {
 		Enabled = true,
 		Range = 5500,
-		Values = {7, 13, 0.1, 1}
+		Values = {2, 8, 0.1, 1}
 	},
 	Movement = {
 		Speed = 22,
