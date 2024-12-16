@@ -51,3 +51,15 @@ local entity = spawner.Create({
 	}
 })
 entity:Run()
+
+entity:SetCallback("OnDespawned", function()
+    print("Entity has despawned, giving a Achievement.")
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tupoi-Scripts/Entity-Spawner/refs/heads/main/AchievementSystem.lua"))()
+
+achievementGiver({
+    Title = "Last ChanceTto Look Away",
+    Desc = "Why are you running?",
+    Reason = "Survive the rar Entity called Dear God.",
+    Image = "rbxassetid://11394027278"
+})
+	end)
