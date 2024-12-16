@@ -18,11 +18,11 @@ local entity = spawner.Create({
 	},
 	CameraShake = {
 		Enabled = true,
-		Range = 100,
-		Values = {5, 15, 0.1, 1}
+		Range = 120,
+		Values = {3, 13, 0.1, 1}
 	},
 	Movement = {
-		Speed = 160,
+		Speed = 135,
 		Delay = 4,
 		Reversed = true
 	},
@@ -51,3 +51,15 @@ local entity = spawner.Create({
 	}
 })
 entity:Run()
+
+entity:SetCallback("OnDespawned", function()
+    print("Entity has despawned, giving a Achievement.")
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tupoi-Scripts/Entity-Spawner/refs/heads/main/AchievementSystem.lua"))()
+
+achievementGiver({
+    Title = "Out Of Many Rebounds",
+    Desc = "Back for more!",
+    Reason = "Encounter Rebound.",
+    Image = "rbxassetid://13856279731"
+})
+	end)
