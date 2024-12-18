@@ -60,6 +60,6 @@ achievementGiver({
     Title = "Out Of Many Rebounds",
     Desc = "Back for more!",
     Reason = "Encounter Rebound.",
-    Image = "rbxassetid://13856279731"
+    Image = "https://github.com/Tupoi-Scripts/Entity-Spawner/blob/main/reboundIcon.png"
 })
 	end)
