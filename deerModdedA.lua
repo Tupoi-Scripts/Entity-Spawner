@@ -60,7 +60,7 @@ achievementGiver({
     Title = "Last Chance to Look Away",
     Desc = "Why are you running?",
     Reason = "Survive the rar Entity called Dear God.",
-    Image = "rbxassetid://11394027278"
+    Image = "https://github.com/Tupoi-Scripts/Entity-Spawner/blob/main/Utilities/DEER.png"
 })
     game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(85, 30, 107)
 game.Lighting.MainColorCorrection.Contrast = 0.8
