@@ -36,7 +36,7 @@ local entity = spawner.Create({
 		Delay = 1.5
 	},
 	Damage = {
-		Enabled = false,
+		Enabled = true,
 		Range = 50,
 		Amount = 125
 	},
