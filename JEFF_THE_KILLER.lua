@@ -8,7 +8,7 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = spawner.Create({
 	Entity = {
 		Name = "JEFF THE KILLER!!!!!!!!!!!!!!!!!!!!111!11!!!!!!!!!!1!1!1!1!1!",
-		Asset = "https://github.com/Tupoi-Scripts/Entity-Spawner/blob/main/Jeff_the_Killar.rbxm?raw=true",
+		Asset = "https://github.com/Tupoi-Scripts/Entity-Spawner/blob/main/Jeff_the_KillarUPDATED.rbxm?raw=true",
 		HeightOffset = 0
 	},
 	Lights = {
@@ -53,7 +53,7 @@ local entity = spawner.Create({
 	Death = {
 		Type = "Curious",
 		Hints = {"LMFAO", "YOU DIED TO JEAF THE KAKA!!", "XD😂😂😂🤣🤣🤣🤣", "try again NOOB!"},
-		Cause = "JEFF THE KILARRR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!111!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+		Cause = "JEFF THE KILARRR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 	}
 })
 entity:Run()
