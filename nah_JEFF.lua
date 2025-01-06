@@ -1,6 +1,5 @@
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("nah oyu really want to spawn jeff the killer (press R to spwan)",true)
 
-local function myFunction()
 local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V2/Source.lua"))()
 local entity = spawner.Create({
 	Entity = {
